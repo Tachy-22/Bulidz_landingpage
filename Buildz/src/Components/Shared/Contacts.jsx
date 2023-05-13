@@ -11,7 +11,7 @@ function Contacts() {
       <div className="flex mid:flex-row  flex-col justify-between px-[1rem] tablet:px-[2rem] items-center w-full  pb-[4rem]">
         <picture
           style={{ "--image-url": `url(${ContactImage})` }}
-          className="  block  bg-[image:var(--image-url)] mid:bg-center laptop:bg-cover mid:bg-cover bg-contain  bg-center  bg-no-repeat   tablet:h-[45rem] mid:h-[35rem] h-[25rem] border  w-full "
+          className="  block  bg-[image:var(--image-url)] mid:bg-center laptop:bg-cover mid:bg-cover bg-contain  bg-top  bg-no-repeat   tablet:h-[45rem] mid:h-[35rem] h-[25rem]   w-full "
         ></picture>
 
         <form className="flex flex-col justify-between h-full gap-[1rem]  w-full  grow">
