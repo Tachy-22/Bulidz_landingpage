@@ -3,7 +3,7 @@ function Contacts() {
   return (
     <section className="flex flex-col justify-center items-center  text-black">
       <h3 className="text-5xl font-bold capitalize py-4">Get in touch</h3>
-      <p className=" tablet:w-1/2 px-4 text-center">
+      <p className=" tablet:w-3/4  px-4 text-center">
         Finance and jurisprudence are our main directions and we know how to
         deal with many financial issues and how to bussiness in today&apos;s
         reality and conditions
@@ -11,7 +11,7 @@ function Contacts() {
       <div className="flex mid:flex-row  flex-col justify-between px-[1rem] tablet:px-[2rem] items-center w-full  pb-[4rem]">
         <picture
           style={{ "--image-url": `url(${ContactImage})` }}
-          className="  block  bg-[image:var(--image-url)] mid:bg-center laptop:bg-cover mid:bg-contain  bg-center  bg-no-repeat   mid:h-[45rem] h-[45rem]   w-full "
+          className="  block  bg-[image:var(--image-url)] mid:bg-center laptop:bg-cover mid:bg-cover bg-contain  bg-center  bg-no-repeat   tablet:h-[45rem] mid:h-[35rem] h-[25rem] border  w-full "
         ></picture>
 
         <form className="flex flex-col justify-between h-full gap-[1rem]  w-full  grow">
