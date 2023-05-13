@@ -8,13 +8,14 @@ import Results from "../Components/Shared/Results";
 import Cta_ from "../Components/Shared/Cta_";
 import Testimonials from "../Components/Shared/Testimonials";
 import Contacts from "../Components/Shared/Contacts";
+import Footer from "../Components/Shared/Footer";
 
 export const RootContext = createContext({});
 function RootLayout() {
   const [mobileMenuView, setMobileMenuView] = useState();
   return (
     <RootContext.Provider value={{ mobileMenuView, setMobileMenuView }}>
-      <div className=" flex flex-col ">
+      <div className=" flex flex-col text-black ">
         <DesktopHeader />
         <MobileHeader />
         <HeroSection />
@@ -22,8 +23,9 @@ function RootLayout() {
         <Results />
         <Cta_ />
         <Testimonials />
-        <Contacts/>
+        <Contacts />
         <Outlet />
+        <Footer/>
       </div>
     </RootContext.Provider>
   );

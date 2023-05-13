@@ -1,10 +1,10 @@
 export const navArray = [
-  { page: "Home", path: "about", id: 1 },
-  { page: "Pricing", path: "my-skills", id: 2 },
-  { page: "About Us", path: "work", id: 3 },
-  { page: "Services", path: "contact", id: 4 },
-  { page: "Blog", path: "my-skills", id: 2 },
-  { page: "Contact", path: "work", id: 3 },
+  { page: "Home", path: "/", id: 1 },
+  { page: "Pricing", path: "/", id: 2 },
+  { page: "About Us", path: "", id: 3 },
+  { page: "Services", path: "", id: 4 },
+  { page: "Blog", path: "/", id: 2 },
+  { page: "Contact", path: "/", id: 3 },
 ];
 
 export const socialsArray = [

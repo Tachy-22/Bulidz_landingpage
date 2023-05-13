@@ -28,12 +28,21 @@ function Results() {
           {monthlyChartArray.map((bars, index) => {
             return (
               <div key={index} className="flex flex-col">
-              
-                <div className="h-[40rem] w-[2rem] max-w-[2rem] bg-black flex-col items-baseline">
+                <div className="h-[40rem] w-[2rem] bg-black max-w-[2rem]  flex-col items-baseline">
                   <div
-                    className={`h-[${bars.percent}%]  relative transition-all duration-1000  bg-gray-700 text-black  `}
+                    className={`${
+                      bars.percent === 30
+                        ? "h-[30%]"
+                        : bars.percent === 20
+                        ? "h-[20%]"
+                        : bars.percent === 50
+                        ? "h-[50%]"
+                        : bars.percent === 40
+                        ? "h-[40%]"
+                        : bars.percent === 10 && "h-[10%]"
+                    }  relative transition-all duration-1000   text-black  `}
                   >
-                    <span className="absolute laptop:-right-[110%] max-[1440px]:-top-10 tablet:bottom-0  -bottom-5">
+                    <span className="absolute laptop:-right-[110%] bg-gray-700 max-[1440px]:-top-10 tablet:bottom-0  -bottom-5">
                       {bars.percenttag}
                     </span>
                   </div>
@@ -57,7 +66,7 @@ function Results() {
           ></picture>
         </div>
         <div className="flex-col flex grow justifiy-between p-[3rem]   tablet:w-[40%] w-full h-full tablet:gap-2 gap-[2rem] items-center">
-          <div className=" ">
+          <div className="text-black/50">
             <h3 className="tablet:text-2xl text-xl  text-left font-bold uppercase">
               01 StartUps
             </h3>
@@ -66,7 +75,7 @@ function Results() {
               and human resources
             </p>
           </div>
-          <div>
+          <div className="text-black/50">
             <h3 className="tablet:text-2xl text-xl font-bold uppercase">
               02 Anti-Crisis
             </h3>
@@ -75,7 +84,7 @@ function Results() {
               and human resources
             </p>
           </div>
-          <div>
+          <div className="text-black/50">
             <h3 className="tablet:text-2xl text-xl font-bold uppercase">
               {" "}
               03 Finance
