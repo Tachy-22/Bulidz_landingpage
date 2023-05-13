@@ -40,9 +40,9 @@ function Results() {
                         : bars.percent === 40
                         ? "h-[40%]"
                         : bars.percent === 10 && "h-[10%]"
-                    }  relative transition-all duration-1000   text-black  `}
+                    }  relative transition-all duration-1000   text-black bg-gray-700  `}
                   >
-                    <span className="absolute laptop:-right-[110%] bg-gray-700 max-[1440px]:-top-10 tablet:bottom-0  -bottom-5">
+                    <span className="absolute laptop:-right-[110%]  max-[1440px]:-top-10 tablet:bottom-0  -bottom-5">
                       {bars.percenttag}
                     </span>
                   </div>
