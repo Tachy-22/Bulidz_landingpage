@@ -5,7 +5,7 @@ import MobileHeader from "../Components/Mobile/MobileHeader";
 import HeroSection from "../Components/Shared/HeroSection";
 import About from "../Components/Shared/About";
 import Results from "../Components/Shared/Results";
-import Cta from "../Components/Shared/CTA";
+import Cta_ from "../Components/Shared/Cta_";
 
 export const RootContext = createContext({});
 function RootLayout() {
@@ -18,7 +18,7 @@ function RootLayout() {
         <HeroSection />
         <About />
         <Results />
-        <Cta/>
+        <Cta_ />
         <Outlet />
       </div>
     </RootContext.Provider>
