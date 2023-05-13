@@ -48,7 +48,7 @@ function Cta_() {
           })}
           <button className="btn text-xl w-[10rem]">Buy now</button>
         </div>
-        <div className="tablet:w-[32vw] w-[80%] flex flex-col justify-center items-center  rounded-lg h-[30rem] p-[2rem] z-40 bg-white tablet:absolute right-0 left-0 top-[8rem] bottom-0 tablet:m-auto border  shadow-xl">
+        <div className="tablet:w-[32vw] w-[80%] flex flex-col justify-center items-center  rounded-lg h-[30rem] p-[2rem] z-10 bg-white tablet:absolute right-0 left-0 top-[8rem] bottom-0 tablet:m-auto border  shadow-xl">
           <div className="grow  text-center text-xl  flex flex-col justify-center">
             <p className="laptop:text-xl text-md "> 1 user</p>
             <h3 className="laptop:text-2xl text-xl font-bold capitalize">
