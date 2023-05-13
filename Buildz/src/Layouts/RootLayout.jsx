@@ -6,6 +6,7 @@ import HeroSection from "../Components/Shared/HeroSection";
 import About from "../Components/Shared/About";
 import Results from "../Components/Shared/Results";
 import Cta_ from "../Components/Shared/Cta_";
+import Testimonials from "../Components/Shared/Testimonials";
 
 export const RootContext = createContext({});
 function RootLayout() {
@@ -19,6 +20,7 @@ function RootLayout() {
         <About />
         <Results />
         <Cta_ />
+        <Testimonials />
         <Outlet />
       </div>
     </RootContext.Provider>

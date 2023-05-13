@@ -41,7 +41,7 @@ function Cta_() {
                 key={index}
                 className="grow laptop:text-2xl text-center text-xl items-center laptop:px-[3rem]  gap-4 w-fit  flex justify-between "
               >
-                <tik>^</tik>
+                 <span className="material-symbols-outlined">check_circle</span>
                 <p className="grow text-black/50">{benefit}</p>
               </div>
             );
@@ -62,7 +62,7 @@ function Cta_() {
                 key={index}
                 className="grow laptop:text-2xl text-center text-xl items-center laptop:px-[3rem]  gap-4 w-fit  flex justify-between "
               >
-                <tik className="">^</tik>
+                <span className="material-symbols-outlined">check_circle</span>
                 <p className=" grow  text-black/50">{benefit}</p>
               </div>
             );
@@ -83,7 +83,7 @@ function Cta_() {
                 key={index}
                 className="grow  laptop:text-2xl text-center text-xl items-center laptop:px-[3rem] gap-4 w-fit  flex justify-center "
               >
-                <tik>^</tik>
+                 <span className="material-symbols-outlined">check_circle</span>
                 <p className=" grow text-black/50">{benefit}</p>
               </div>
             );
