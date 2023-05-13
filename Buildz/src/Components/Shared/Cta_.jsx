@@ -26,7 +26,7 @@ function Cta_() {
           financial planning
         </p>
       </div>
-      <div className="relative  h-full mb-[8rem] tablet:gap-0 gap-[2rem]  flex tablet:flex-row items-center laptop:p-[5rem] tablet:p-[1rem] p-[1rem] flex-col text-black justify-between ">
+      <div className="relative  h-full mb-[8rem] tablet:gap-0 gap-[2rem]  flex tablet:flex-row items-center laptop:p-[5rem] tablet:p-[2rem] p-[1rem] flex-col text-black justify-between ">
         <div className="tablet:w-[32vw]  w-[80%] flex flex-col justify-center items-center border  rounded-lg  h-[30rem] py-[2rem] bg-white    shadow-xl">
           <div className="grow  text-center text-xl  flex flex-col justify-center">
             <p className="laptop:text-xl text-md "> 1 user</p>
