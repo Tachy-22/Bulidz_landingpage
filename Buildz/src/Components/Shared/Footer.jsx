@@ -1,22 +1,8 @@
 import Logo from "./Logo";
 import { navArray } from "../dummyDb/db";
-import {  NavLink } from "react-router-dom";
-import { useContext } from "react";
-import { RootContext } from "../../Layouts/RootLayout";
+import { NavLink } from "react-router-dom";
 
 function Footer() {
-  const { setMobileMenuView } = useContext(RootContext);
-  //   let x = 3;
-  //   let y = 2;
-  //   let z = 0;
-
-  //   if ((x = y)) {
-  //     console.log(x);
-  //   } else if ((x = y)) {
-  //     console.log(x);
-  //   } else {
-  //     console.log(z);
-  //   }
   return (
     <footer className="h-fit flex flex-col justify-between bg-black w-full tablet:px-[4rem] px-[1rem] py-[1rem] text-white">
       <div className="grow  pt-[2rem] justify-between flex-wrap pb-[1rem] tablet:pb-[3rem] flex tablet:flex-row flex-col  ">
@@ -25,7 +11,6 @@ function Footer() {
           {navArray.map((page, index) => {
             return (
               <NavLink
-                onClick={() => setMobileMenuView((prev) => !prev)}
                 to={page.path}
                 className=" text-start   grow "
                 key={index}

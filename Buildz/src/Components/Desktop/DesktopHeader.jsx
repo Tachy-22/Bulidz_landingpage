@@ -8,7 +8,7 @@ function DesktopHeader() {
   const { setMobileMenuView } = useContext(RootContext);
   return (
     <div className="text-black py-[2rem] tablet:flex hidden items-center justify-between w-full px-[4rem]">
-      <Logo />
+      <Logo  />
       <nav className=" w-[60%] gap-4 uppercase justify-between flex ">
         {navArray.map((page, index) => {
           return (
