@@ -1,9 +1,9 @@
-import { navArray, socialsArray } from "../dummyDb/db";
+import { navArray, socialsArray } from "../../dummyDb/db";
 import { Link } from "react-router-dom";
 import Close from "./img/Close.svg";
-import { RootContext } from "../../Layouts/RootLayout";
+import { RootContext } from "../../../Layouts/RootLayout";
 import { useContext } from "react";
-import Logo from "../Shared/Logo";
+import Logo from "../../Shared/Logo";
 function MobileNav() {
   const { mobileMenuView, setMobileMenuView } = useContext(RootContext);
   return (

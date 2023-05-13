@@ -16,7 +16,7 @@ function Contacts() {
 
         <form className="flex flex-col justify-between h-full gap-[1rem]  w-full  grow">
           <div className="flex   flex-col gap-2 text-black/50">
-            <label className="text-2xl capitalize">
+            <label className="tablet:text-2xl text-xl capitalize">
               Your name <small className="lowercase ">(required)</small>
             </label>
             <input
@@ -28,7 +28,7 @@ function Contacts() {
           </div>
 
           <div className="flex  flex-col gap-2 text-black/50">
-            <label className="text-2xl capitalize">
+            <label className="tablet:text-2xl text-xl capitalize">
               Your email <small className="lowercase ">(required)</small>
             </label>
             <input
@@ -40,7 +40,7 @@ function Contacts() {
           </div>
 
           <div className="flex  flex-col gap-2 text-black/50">
-            <label className="text-2xl capitalize">subject </label>
+            <label className="tablet:text-2xl text-xl capitalize">subject </label>
             <input
               required=""
               type="tel"
@@ -50,7 +50,7 @@ function Contacts() {
           </div>
 
           <label className="flex  flex-col gap-2 text-black/50">
-            <label className="text-2xl capitalize">Your message</label>
+            <label className="tablet:text-2xl text-xl capitalize">Your message</label>
             <textarea
               required=""
               rows="5"
