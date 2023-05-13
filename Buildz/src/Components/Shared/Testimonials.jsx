@@ -23,7 +23,7 @@ function Testimonials() {
     },
   ];
   return (
-    <section className="text-black h-fit  tablet:flex-row flex flex-col tablet:justify-between  items-center gap-[3%] max-[5400px]:px-6 pb-[4rem]  laptop:px-[6rem] py-[2rem]">
+    <section className="text-black h-fit  tablet:flex-row flex flex-col tablet:justify-between  items-center tablet:gap-[3%] gap-[2rem] max-[5400px]:px-6 pb-[4rem]  laptop:px-[6rem] py-[2rem]">
       {testimonialsArray.map((testimonial, index) => {
         return (
           <div
