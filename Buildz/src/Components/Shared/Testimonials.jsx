@@ -36,7 +36,7 @@ function Testimonials() {
                 className="  block  bg-[image:var(--image-url)] bg-cover  bg-center bg-no-repeat   h-full  w-full "
               ></picture>
             </div>
-            <div className="py-[2rem] flex-col tablet:h-[15rem]  flex justify-around bg-black/10 px-4">
+            <div className="py-[2rem] flex-col h-fit tablet:h-[15rem]  flex justify-around bg-black/10 px-4">
               <h3 className="font-bold pb-3 text-xl h-fit flex items-center  capitalize">
                 {testimonial.title}
               </h3>
