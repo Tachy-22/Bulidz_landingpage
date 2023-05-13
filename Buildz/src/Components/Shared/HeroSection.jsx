@@ -10,7 +10,7 @@ function HeroSection() {
           we provide bussiness with all financial services including financial
           analysis of the enterprise
         </p>
-        <button className="  uppercase w-[35%] max-w-[15rem] btn">
+        <button className="  uppercase tablet:w-[35%]  w-[50%] max-w-[20rem] btn">
           Read More
         </button>
       </article>
