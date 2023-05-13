@@ -8,7 +8,7 @@ function Contacts() {
         deal with many financial issues and how to bussiness in today&apos;s
         reality and conditions
       </p>
-      <div className="flex mid:flex-row  flex-col justify-between px-[1rem] tablet:px-[2rem] items-center w-full  py-[4rem]">
+      <div className="flex mid:flex-row  flex-col justify-between px-[1rem] tablet:px-[2rem] items-center w-full  pb-[4rem]">
         <picture
           style={{ "--image-url": `url(${ContactImage})` }}
           className="  block  bg-[image:var(--image-url)] mid:bg-center laptop:bg-cover mid:bg-contain  bg-center  bg-no-repeat   mid:h-[45rem] h-[45rem]   w-full "
