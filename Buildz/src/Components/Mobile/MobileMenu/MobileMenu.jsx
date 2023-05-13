@@ -1,4 +1,4 @@
-import { navArray, socialsArray } from "../../dummyDb/db";
+import { navArray } from "../../dummyDb/db";
 import { Link } from "react-router-dom";
 import Close from "./img/Close.svg";
 import { RootContext } from "../../../Layouts/RootLayout";
@@ -11,8 +11,8 @@ function MobileNav() {
       className={`${
         !mobileMenuView
           ? " -left-[200%] "
-          : "   top-0  left-0 tablet:hidden  block h-screen  "
-      } fixed  w-screen  z-40  transition-all duration-700 bg-white text-black`}
+          : "   top-0  left-0 tablet:hidden  block   "
+      } fixed  w-screen h-screen z-40  transition-all duration-700 bg-white text-black`}
     >
       <section
         className={`
@@ -49,21 +49,7 @@ function MobileNav() {
             );
           })}
         </nav>
-        <section className="  flex  w-fit items-end justify-center gap-4   p-4 h-fit">
-          {socialsArray.map((social, index) => {
-            return (
-              <a
-                className="w-fith-fit hover:outline p-1  hover:outline-[#08fdd8] rounded-full "
-                target="_blank"
-                rel="noreferrer"
-                href={social.path}
-                key={index}
-              >
-                <img className="w-[2rem]  " src={social.src}></img>
-              </a>
-            );
-          })}
-        </section>
+        <section className="  flex  w-fit items-end justify-center gap-4   p-4 h-fit"></section>
       </section>
     </aside>
   );

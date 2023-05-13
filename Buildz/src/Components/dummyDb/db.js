@@ -7,34 +7,4 @@ export const navArray = [
   { page: "Contact", path: "/", id: 3 },
 ];
 
-export const socialsArray = [
-  {
-    social: "linkedIn",
-    link: "about",
-    src: "linkedin_icon",
-    path: "/",
-    alt: "img",
-  },
-  {
-    social: "github",
-    link: "my-skills",
-    src: "github_icon",
-    path: "/",
-    alt: "img",
-  },
-  {
-    social: "twitter",
-    link: "work",
-    src: "twitter_icon",
-    path: "/",
-    alt: "img",
-  },
 
-  {
-    social: "facebook",
-    link: "work",
-    src: "facebook_icon",
-    path: "/",
-    alt: "img",
-  },
-];
