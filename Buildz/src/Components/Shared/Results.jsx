@@ -12,7 +12,7 @@ function Results() {
   return (
     <section className="px-[1rem] py-[4rem] laptop:p-[8rem]  h-full flex flex-col w-full ">
       <div className="w-full h-fit  gap-[6rem]  tablet:gap-0 items-center tablet:flex-row flex flex-col">
-        <article className="  flex-col text-black  justify-center  flex gap-[2rem] laptop:w-[40%] w-fit h-full  ">
+        <article className="  flex-col text-black  justify-center  flex gap-[2rem] laptop:min-w-[50%] laptop:w-[40%] w-fit h-full  ">
           <h2 className="  capitalize tablet:w-[50%]  w-full   h-fit    text-4xl font-bold">
             Our results
           </h2>

@@ -10,8 +10,8 @@ function About() {
             colors="primary:#0000"
           ></lord-icon>
 
-          <p className="font-semibold uppercase text-xl">Branding</p>
-          <p className="text-black/50">
+          <p className="font-semibold uppercase py-2 text-xl">Branding</p>
+          <p className="text-black/50 grow">
             Regular Business Law Assistance service includes monitoring the
             legal sphere of your bussiness
           </p>
@@ -23,8 +23,8 @@ function About() {
             delay="1000"
             colors="primary:#0000"
           ></lord-icon>
-          <p className="font-semibold uppercase text-xl">Finance</p>
-          <p className="text-black/50">
+          <p className="font-semibold uppercase border py-2 text-xl">Finance</p>
+          <p className="text-black/50 grow">
             We provide businesses with all financial services including
             consultations
           </p>
@@ -37,8 +37,8 @@ function About() {
             src="https://cdn.lordicon.com/zchxlapl.json"
           ></lord-icon>
 
-          <p className="font-semibold uppercase text-xl">Marketing</p>
-          <p className="text-black/50">
+          <p className="font-semibold uppercase py-2 text-xl">Marketing</p>
+          <p className="text-black/50 grow">
             Good marketing plan is crucial for businessmen who want to develop
             their business
           </p>
