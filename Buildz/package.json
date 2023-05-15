@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "push": "npm i readline-sync && node -e \"const readlineSync = require('readline-sync'); const message = readlineSync.question('Enter commit message: '); if (message) {require('child_process').execSync(`git add . && git commit -m \\\"${message}\\\" && git push`) } else {console.log('No commit message entered');}\"",
+    "push": " node -e \"const readlineSync = require('readline-sync'); const message = readlineSync.question('Enter commit message: '); if (message) {require('child_process').execSync(`git add . && git commit -m \\\"${message}\\\" && git push`) } else {console.log('No commit message entered');}\"",
     "preview": "vite preview"
   },
   "dependencies": {
