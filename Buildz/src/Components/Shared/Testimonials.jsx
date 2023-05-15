@@ -31,7 +31,7 @@ function Testimonials() {
             key={index}
             className=" h-full w-[90%] hover:scale-[1.07] transition-all duration-700 flex flex-col"
           >
-            <div className="  grow     laptop:h-[25rem] h-[18rem]">
+            <div className="  grow  w-[100%]   laptop:h-[25rem] h-[18rem]">
               {testimonialsArray ? (
                 <picture
                   style={{ "--image-url": `url(${testimonial.img})` }}
