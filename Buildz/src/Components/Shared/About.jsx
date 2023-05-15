@@ -23,7 +23,7 @@ function About() {
             delay="1000"
             colors="primary:#0000"
           ></lord-icon>
-          <p className="font-semibold uppercase border py-2 text-xl">Finance</p>
+          <p className="font-semibold uppercase  py-2 text-xl">Finance</p>
           <p className="text-black/50 grow">
             We provide businesses with all financial services including
             consultations
