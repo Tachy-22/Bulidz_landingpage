@@ -7,14 +7,15 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "push": "git add . && git commit -m \"update\" && git push",
+    "push": "npm i readline-sync && node -e \"const readlineSync = require('readline-sync'); const message = readlineSync.question('Enter commit message: '); if (message) {require('child_process').execSync(`git add . && git commit -m \\\"${message}\\\" && git push`) } else {console.log('No commit message entered');}\"",
     "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-loading-skeleton": "^3.3.1",
-    "react-router-dom": "^6.11.1"
+    "react-router-dom": "^6.11.1",
+    "readline-sync": "^1.4.10"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
