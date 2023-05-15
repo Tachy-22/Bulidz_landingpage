@@ -28,7 +28,7 @@ function Testimonials() {
   useEffect(() => {
     setTimeout(() => {
       setLoading(true);
-    }, 3000);
+    }, 1500);
   });
 
   return (
