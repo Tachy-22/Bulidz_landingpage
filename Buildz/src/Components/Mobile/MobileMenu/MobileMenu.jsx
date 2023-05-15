@@ -11,8 +11,8 @@ function MobileNav() {
       className={`${
         !mobileMenuView
           ? " -left-[200%] "
-          : "   top-0  left-0 tablet:hidden  block   "
-      } fixed  w-screen h-screen z-40  transition-all duration-700 bg-white text-black`}
+          : "   top-0  left-0 right-0 bottom-0 tablet:hidden    "
+      }  fixed  w-screen h-screen z-40  transition-all duration-700 bg-white text-black`}
     >
       <section
         className={`

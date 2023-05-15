@@ -2,8 +2,13 @@ function About() {
   return (
     <section className=" bg-black relative tablet:mt-[10rem] mt-[55rem]   h-fit flex  items-center   text-white w-full  ">
       <div className=" absolute tablet:-top-[8rem] -top-[110%] w-full tablet:flex-row flex flex-col  h-fit tablet:gap-0 gap-[1rem]   text-black tablet:justify-around justify-center items-center">
-        <div className="card tablet:w-[25%] w-[80%] text-center flex flex-col justify-between py-[3rem] h-[17rem] bg-white rounded-md p-4 shadow-xl border-2">
-          <span className="material-symbols-outlined">lightbulb</span>
+        <div className="card tablet:w-[25%] items-center w-[80%] text-center flex flex-col justify-between py-[3rem] h-[17rem] bg-white rounded-md p-4 shadow-xl border-2">
+          <lord-icon
+            src="https://cdn.lordicon.com/slduhdil.json"
+            trigger="loop"
+            delay="1000"
+            colors="primary:#0000"
+          ></lord-icon>
 
           <p className="font-semibold uppercase text-xl">Branding</p>
           <p className="text-black/50">
@@ -11,16 +16,27 @@ function About() {
             legal sphere of your bussiness
           </p>
         </div>
-        <div className=" card tablet:w-[25%] w-[80%] text-center flex flex-col justify-between py-[3rem] h-[17rem] bg-white rounded-md p-4 shadow-xl border-2">
-          <span className="material-symbols-outlined">payments</span>
+        <div className=" card tablet:w-[25%] items-center w-[80%] text-center flex flex-col justify-between py-[3rem] h-[17rem] bg-white rounded-md p-4 shadow-xl border-2">
+          <lord-icon
+            src="https://cdn.lordicon.com/gsvbkwao.json"
+            trigger="loop"
+            delay="1000"
+            colors="primary:#0000"
+          ></lord-icon>
           <p className="font-semibold uppercase text-xl">Finance</p>
           <p className="text-black/50">
             We provide businesses with all financial services including
             consultations
           </p>
         </div>
-        <div className=" card tablet:w-[25%] w-[80%] text-center flex flex-col justify-between py-[3rem] h-[17rem] bg-white rounded-md p-4 shadow-xl border-2">
-          <span className="material-symbols-outlined">monitoring</span>
+        <div className=" card tablet:w-[25%] w-[80%] text-center flex flex-col justify-between items-center py-[3rem] h-[17rem] bg-white rounded-md p-4 shadow-xl border-2">
+          <lord-icon
+            trigger="loop"
+            delay="1000"
+            colors="primary:#0000"
+            src="https://cdn.lordicon.com/zchxlapl.json"
+          ></lord-icon>
+
           <p className="font-semibold uppercase text-xl">Marketing</p>
           <p className="text-black/50">
             Good marketing plan is crucial for businessmen who want to develop
