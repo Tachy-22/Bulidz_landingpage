@@ -6,7 +6,7 @@ function About() {
           <lord-icon
             src="https://cdn.lordicon.com/slduhdil.json"
             trigger="loop"
-            delay="1000"
+            delay="200"
             colors="primary:#0000"
           ></lord-icon>
 
@@ -20,7 +20,7 @@ function About() {
           <lord-icon
             src="https://cdn.lordicon.com/gsvbkwao.json"
             trigger="loop"
-            delay="1000"
+            delay="200"
             colors="primary:#0000"
           ></lord-icon>
           <p className="font-semibold uppercase  py-2 text-xl">Finance</p>
@@ -32,7 +32,7 @@ function About() {
         <div className=" card tablet:w-[25%] w-[80%] text-center flex flex-col justify-between items-center py-[3rem] h-[17rem] bg-white rounded-md p-4 shadow-xl border-2">
           <lord-icon
             trigger="loop"
-            delay="1000"
+            delay="200"
             colors="primary:#0000"
             src="https://cdn.lordicon.com/zchxlapl.json"
           ></lord-icon>

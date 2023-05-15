@@ -65,9 +65,9 @@ function Results() {
             className="  block  bg-[image:var(--image-url)] bg-contain  bg-left bg-no-repeat  tablet:h-full h-[30rem]  w-full "
           ></picture>
         </div>
-        <div className="flex-col flex grow justifiy-between p-[3rem]   tablet:w-[40%] w-full h-full tablet:gap-2 gap-[2rem] items-center">
-          <div className="text-black/50">
-            <h3 className="tablet:text-2xl text-xl  text-left font-bold uppercase">
+        <div className="flex-col flex grow justifiy-between p-[3rem]   tablet:w-[40%] w-full h-full tablet:gap-[2rem] gap-[2rem] items-center">
+          <div className="">
+            <h3 className="text-black/75 tablet:text-2xl text-xl  text-left font-bold uppercase">
               01 StartUps
             </h3>
             <p className="text-black/50 text-xl">
@@ -75,17 +75,17 @@ function Results() {
               and human resources
             </p>
           </div>
-          <div className="text-black/50">
-            <h3 className="tablet:text-2xl text-xl font-bold uppercase">
+          <div className="">
+            <h3 className=" text-black/75 tablet:text-2xl text-xl font-bold uppercase">
               02 Anti-Crisis
             </h3>
-            <p className="text-black/50 text-xl">
+            <p className=" text-black/50 text-xl">
               Startuppers recieve assistance in financial, legal , economical
               and human resources
             </p>
           </div>
-          <div className="text-black/50">
-            <h3 className="tablet:text-2xl text-xl font-bold uppercase">
+          <div className="">
+            <h3 className="text-black/75 tablet:text-2xl text-xl font-bold uppercase">
               {" "}
               03 Finance
             </h3>
